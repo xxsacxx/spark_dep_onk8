@@ -6,7 +6,7 @@ main(['install', 'requests'])
                                                
 import requests
                
-url = "http://192.168.41.247:2611/dependencies.zip"
+url = "http://192.168.29.69:2611/dependencies.zip"
 response = requests.get(url, stream=True)                                   
                                          
 with open("dep.zip", "wb") as handle:
