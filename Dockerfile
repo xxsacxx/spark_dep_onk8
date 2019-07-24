@@ -7,6 +7,7 @@ COPY dependencies.zip /dependencies.zip
 
 
 RUN apk add --update openssl wget bash 
+RUN apk add curl 
 
 RUN apk update && \
     echo "**** install Python ****" && \
